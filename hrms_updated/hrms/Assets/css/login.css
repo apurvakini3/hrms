@@ -1,0 +1,186 @@
+
+*
+{
+	/*font-family: 'Varela', sans-serif;*/
+	margin-left: 0px;
+	padding: 0px;
+
+}
+
+.container-fluid{
+	padding-left: 0px;
+}
+
+body{font-family: 'Noto Serif', serif;
+ background-color: #F2F4FA;
+ font-size: 1.5em; }
+.list{padding: 20px;
+	background-color: #1b9e86;
+	color: white;
+	margin-top: 7%;
+margin-bottom: 7%}
+/*
+table{border:1px solid black !important;}
+*/
+.sticky {
+  position: fixed;
+  top:13%;
+ width: 23%;
+}
+.sidenav{
+  padding: 15px;
+	height: 100%;
+	width: 90%;
+}
+.
+.space{padding: 15px;}
+#hrms {
+   display:none;
+}
+
+@media screen and (max-width: 415px) {
+   #hrms{
+       display:block;
+    }
+}
+
+@media screen and (max-width: 415px) {
+   .sticky{
+     position: relative;
+  top:13%;
+ width: 100%;
+
+   }
+}
+
+/*-----------------=====-footer--=========----------*/
+.footer{color: white;
+		background-color:black}
+.footer-logo-center{margin: 42px 107px 0px;}
+.footer-content-center{margin:22px 130px 0px;}
+.footer-icon-center{margin: 52px 52px 0px;}
+.ficons {
+	    padding: 14px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 4px;
+    border-radius: 50%;
+}
+.footer-content-color{color:#CBCBCB ;}
+hr{
+    width: 80%;
+   border: 1px solid #636463;}
+.footer-content{padding: 20px 5px 4px 66px;}
+.ficons :hover {opacity: 0.9;}
+.fa-facebook {background: grey;color: black;}
+.fa-twitter {background: grey;color: black;}
+.fa-google {background: grey;color: black;}
+.fa-linkedin { background: grey;color: black;}
+
+/*----------------======--profile card--======-----------*/
+.card_space{padding: 20px;}
+.adm_card_space{padding: 20px;}
+.adm_cards{float: left;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 287px;
+  margin: auto;
+  text-align: center;
+ margin-top: 0%;
+  background-color: white !important;
+    
+}
+
+.card p {color:#225F82 ;}
+
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/*------------------Employee form-------------*/
+.emp_form_div{
+	border:1px solid #DBDEF0;
+	border-radius: 2%;
+	width: 60%;
+	padding: 30px;
+	background-color: #E1E6FA  ;
+  margin-top:5%
+}
+.emp_form_div form{width: 70%;}
+.emp_form_div label{padding: 10px;}
+.form-btn{padding-top: 20px;}
+/*------------------Leave table-------------*/
+.leave_table{margin-top:2%;
+}
+th, td {
+    text-align: center;
+  
+}
+
+/*=========#####==========Admin part========#####=========*/
+.incr {
+        font-size: 66px;
+        color: black;
+        font-weight: 400;
+        text-align: center;
+        background-color: orange;
+        border-radius: 50%;
+        width: 15%;
+        display: inline-block;
+        opacity: 0.8;
+    }
+.design-button{
+      color: white;
+    height: 145px;
+    border-radius: 2%;
+    opacity:0.78;
+    text-decoration: none;
+     box-shadow: 9px 10px 6px grey;
+      transition: transform 1s;
+}
+.design-button:hover{
+  cursor: pointer;
+  opacity: 1;
+   -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+.spacing a:hover{text-decoration: none;}
+
+.button-text{
+ font-size: 2em;
+  padding: 10px;
+}
+.tagline{
+margin-top:-11px;
+padding: 10px;
+background-color: ;}
+.icon_space {
+  padding: 0px 0px 0px 70px;
+  text-align: center;
+  color: black;
+}
+.spacing{padding: 26px;
+}
